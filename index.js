@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 9000;
 
 const io = new Server(PORT, {
   cors: {
-    origin: "https://chatapp-client.netlify.app",
+    origin: "https://chattingapp-client.netlify.app",
   },
 });
 
